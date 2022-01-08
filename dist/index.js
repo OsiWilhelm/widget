@@ -8,7 +8,7 @@ function $parcel$interopDefault(a) {
 function $parcel$defineInteropFlag(a) {
   Object.defineProperty(a, '__esModule', {value: true, configurable: true});
 }
-var $parcel$global =
+var $parcel$global = 
 typeof globalThis !== 'undefined'
   ? globalThis
   : typeof self !== 'undefined'
@@ -18,6 +18,7 @@ typeof globalThis !== 'undefined'
   : typeof global !== 'undefined'
   ? global
   : {};
+
 var $parcel$modules = {};
 var $parcel$inits = {};
 
@@ -18464,16 +18465,62 @@ var $j6kuu = parcelRequire("j6kuu");
 
 function _templateObject() {
     var data = $lj2HL.default([
-        "\n    .kQcEQt {\n        background: linear-gradient(45deg,  #03a7f8, #87CEEB );\n    }\n    .rsc-header-title {\n        font-variant: DejaVu Sans Mono, monospace;\n    }\n    .gSZBXz {\n        font-size: 20px;\n    }\n\n    .itYrWC {\n        background: linear-gradient(45deg,  #03a7f8, #87CEEB);\n    }\n    .erOoyR {\n        background: #2472D6;\n    }\n    .iwuaA {\n        background: rgba(199, 236, 254, 1);\n    }\n    .bHraIr:disabled {\n        background: rgba(211, 212, 255, 1)\n    }\n\n    .rsc-input {\n        fontcolor: black;\n        // background: #bdbbbb;\n       \n    }\n\n     .rsc-submit-button{\n         fontcolor: white;\n         svg {\n            fill: #000\n        }\n        \n    } \n\n    /* .dlHUTf{\n        background: black;\n        bottom: 0em              \n    } */\n\n   \n    .rsc-os-option-element{\n        // background: linear-gradient(45deg,  #03a7f8, #87CEEB);\n        background: #03a7f8;\n       }\n"
-    ]);
+   //     "
+    //.kQcEQt {
+      //  background: linear-gradient(45deg,  #03a7f8, #87CEEB ),
+    
+    //.rsc-header-title {
+      //  font-variant: DejaVu Sans Mono, monospace;
+    //}
+   //.gSZBXz {
+     //  font-size: 20px;
+   //}
+
+   //.itYrWC {
+     //   background: linear-gradient(45deg,  #03a7f8, #87CEEB);
+    //}
+    //.erOoyR {
+      //  background: #2472D6;
+   //}
+    //.iwuaA {
+      //  background: rgba(199, 236, 254, 1);
+   // }
+    //.bHraIr:disabled {
+      //  background: rgba(211, 212, 255, 1)
+   //}
+
+    //.rsc-input {
+      // fontcolor: black;
+        // background: #bdbbbb;
+       
+   //}
+
+     //.rsc-submit-button{
+       //  fontcolor: white;
+         //svg {
+           // fill: #000
+        //}
+        
+    //} 
+
+    /* .dlHUTf{
+      background: black;
+       bottom: 0em              
+    } */
+   
+    //.rsc-os-option-element{
+        // background: linear-gradient(45deg,  #03a7f8, #87CEEB);
+      //  background: #03a7f8;
+       //}"
+    //]);
     _templateObject = function _templateObject() {
         return data;
-    };
-    return data;
-}
-var _ = function(t1) {
+    },
+    
+
+var t = function(t1) {
     return t1;
-}, t;
+} 
 var $e284522d54ed247e$export$42a852a2b6b56249 = $cdy5r.default((/*@__PURE__*/$parcel$interopDefault($27e157e795d3129d$exports)))(t || (t = _(_templateObject())));
 
 
@@ -18582,5 +18629,4 @@ $d8736a51d6b8f967$var$chatbotDivs.forEach(function(chatBotDiv) {
         })
     }), chatBotDiv);
 });
-
-})();
+}
