@@ -1,12 +1,7 @@
-import './App.css'
 import ChatBotContainer from "./ChatBotContainer";
 
 function App() {
-  
-
-  return (
-    <ChatBotContainer/>
-  )
+  return <ChatBotContainer/>;
 }
 
-export default App
+export default App;
